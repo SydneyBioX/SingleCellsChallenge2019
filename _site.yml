@@ -1,0 +1,11 @@
+name: "ozsinglecell"
+navbar:
+  title: "Oz Single Cells Challenge 2019"
+left:
+  - text: "Home"
+href: index.html
+output_dir: "."
+output:
+  html_document:
+    theme: united
+    highlight: textmate
