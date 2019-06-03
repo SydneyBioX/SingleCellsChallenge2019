@@ -1,9 +1,11 @@
 name: "ozsinglecell"
 navbar:
   title: "Oz Single Cells Challenge 2019"
-left:
-  - text: "Home"
-    href: index.html
+  left:
+    - text: "Challenge"
+      href: index.html
+    - text: "Workshop"
+      href: workshop.html    
 output_dir: "."
 output:
   html_document:
