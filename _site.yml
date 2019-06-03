@@ -3,9 +3,10 @@ navbar:
   title: "Oz Single Cells Challenge 2019"
 left:
   - text: "Home"
-href: index.html
+    href: index.html
 output_dir: "."
 output:
   html_document:
-    theme: united
+    theme: cerulean
     highlight: textmate
+    css: styles.css
