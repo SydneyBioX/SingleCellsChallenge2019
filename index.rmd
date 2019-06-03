@@ -44,7 +44,7 @@ In addition, the clarity and coherence of the presentation will be taken into ac
 
 # Datasets
 
-### Dataset 1 - Computational Challenge Datasets
+### Dataset 1 - Swarbrick Lab CITE-seq data
 
 ##### SHORT SUMMARY
 Dataset from the Swarbrick lab provides the participants with an opportunity to explore CITE-seq, a powerful new technology that allows simultaneous characterisation of both RNA and surface proteins. Hackers are invited to build stories around the biological (metastatic lymph node) or technical aspects (normalisation, visualisation, integration) of the data. 
@@ -77,7 +77,7 @@ In the experiment below we applied multimodal analysis to phenotype immune cells
 
 
 
-### Dataset 2 - Choices of benchmarking dataset
+### Dataset 2 - Benchmarking datasets
 
 
 #### Dataset 2.1 - Ding et al. Benchmark Datasets
