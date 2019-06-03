@@ -24,7 +24,7 @@ Please note that entries are not limited to the above suggestions and participan
 # Challenge Entrants
 
 Teams can consist of any number of people, but we encourage teams to have a mix of students, postdocs, and more senior academic staff. 
-To register your team, please fill in our form here, note that this is not binding and you can change your mind later. 
+To register your team, please fill in our form [here](https://docs.google.com/forms/d/e/1FAIpQLSebsq7sjQnaodGPNx0vY_KFnsgC2FdvTm-ODvYEt2E-TbiXWg/viewform?usp=sf_link), note that this is not binding and you can change your mind later. 
 On 15th July, we will ask each team entering the challenge to provide us with a 200-word description of their entry.  
 
 
@@ -60,20 +60,18 @@ In the experiment below we applied multimodal analysis to phenotype immune cells
 2.	Improve the default statistical framework for the QC of CITE antibodies using mouse spike-ins and IgG controls
 3.	Compare CITE profiles with publicly available cell-type signatures (i.e. www.immgen.org)
 
-##### FILES
-1.	RAW CITE-seq COUNTS
-+ Swarbrick_metastatic_lymphnode.CITE.csv
-+ csv file 
-2.	SEURAT OBJECT
+##### DOWNLOAD 
+1.	RAW CITE-seq COUNTS (csv file: [link](http://www.maths.usyd.edu.au/u/SMS/bioinformatics/wwwnb/CITE-seq/Swarbrick_metastatic_lymphnode.CITE.csv))
++ Swarbrick_metastatic_lymphnode.CITE.csv 
+
+2.	SEURAT OBJECT (.RData file: [link](http://www.maths.usyd.edu.au/u/SMS/bioinformatics/wwwnb/CITE-seq/Swarbrick_metastatic_lymphnode.seurat.Rdata))
 + Swarbrick_metastatic_lymphnode.seurat.Rdata
 + Seurat (v3) object with raw and processed data human and mouse data, with CITE-seq counts (RNA and ADT (antibody-derived tags)) included. 
 + data processed with Seurat_3.0.0.9100, normalized with SCTransform (stored in SCT assay) 
-3.	ANTIBODY ANNOTATION
-+ antibody_isotypes.csv
+3.	ANTIBODY ANNOTATION (csv file: [link](http://www.maths.usyd.edu.au/u/SMS/bioinformatics/wwwnb/CITE-seq/antibody_isotype.csv))
++ antibody_isotypes.csv 
 
 
-
-##### Download:
 
 
 
@@ -82,41 +80,16 @@ In the experiment below we applied multimodal analysis to phenotype immune cells
 ### Dataset 2 - Choices of benchmarking dataset
 
 
-#### Dataset 2.1 - CellBench: single cell RNA-seq benchmarking
+#### Dataset 2.1 - Ding et al. Benchmark Datasets
 
-
-
-##### Description:
-
-CellBench uses three human lung adenocarcinoma cell lines HCC827, H1975 and H2228, which were cultured separately, and then processed in three different ways. Firstly, single cells from each cell line were mixed in equal proportions, with libraries generated using three different protocols: CEL-seq2, Drop-seq (with Dolomite equipment) and 10X Chromium. Secondly, the single cells were sorted from the three cell lines into 384-well plates, with an equal number of cells per well in different combinations (generally 9-cells, but with some 90-cell population controls). Thirdly, RNA was extracted in bulk for each cell line and the RNA was mixed in 7 different proportions and diluted to single cell equivalent amounts ranging from 3.75pg to 30pg and processed using CEL-seq 2 and SORT-seq. ERCC spike-in controls were present in samples processed using the 2 plate-based technologies (CEL-seq2 and SORT-seq).
-
-![Experimental design for cell bench data. (Tian et al, 2019)](figures/cellBench_expr_design.png)
-
-
-
-
-##### Download:
-
-Raw data from this series of experiments is available under GEO accession number [GSE118767](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118767). The processed count data obtained from `scPipe` and stored in R objects that use the `SingleCellExperiment` class can be downloaded from https://github.com/LuyiTian/CellBench_data. The website contains instructions for getting the count data and metadata (including annotations) for each dataset. All data is post sample quality control, without gene filtering.
-
-
-
-
-##### Reference:
-
-Tian, L. et al., 2019. Benchmarking single cell RNA-sequencing analysis pipelines using mixture control experiments. Nature Methods, 16(6), pp.479–487. Available at: https://doi.org/10.1038/s41592-019-0425-8.
-
-
-#### Dataset 2.2 - Ding et al. Benchmark Datasets
-
-##### Description: 
+##### DESCRIPTION 
  
 
 A multitude of single-cell RNA sequencing methods have been developed in recent years, with dramatic advances in scale and power, and enabling major discoveries and large scale cell mapping efforts. However, these methods have not been systematically and comprehensively benchmarked. Here, we directly compare seven methods for single cell and/or single nucleus profiling from three types of samples – cell lines, peripheral blood mononuclear cells and brain tissue – generating 36 libraries in six separate experiments in a single center. To analyze these datasets, we developed and applied scumi, a flexible computational pipeline that can be used for any scRNA-seq method. We evaluated the methods for both basic performance and for their ability to recover known biological information in the samples. Our study will help guide experiments with the methods in this study as well as serve as a benchmark for future studies and for computational algorithm development. 
 
- 
+ ![Experimental design for Ding et al. benchmark data. (Ding et al, 2019)](figures/DingEtAl.png)
 
-##### Download:
+##### DOWNLOAD
 
 **PBMC data**
 
@@ -144,9 +117,36 @@ https://portals.broadinstitute.org/single_cell/study/SCP424/single-cell-comparis
 
 
 
-##### Reference:
+##### REFERENCE
 
 Ding, J. et al., 2019. Systematic comparative analysis of single cell RNA-sequencing methods. bioRxiv, p.632216. Available at: https://www.biorxiv.org/content/10.1101/632216v2.
+
+
+
+#### Dataset 2.2 - CellBench: single cell RNA-seq benchmarking
+
+
+
+##### DESCRIPTION
+
+CellBench uses three human lung adenocarcinoma cell lines HCC827, H1975 and H2228, which were cultured separately, and then processed in three different ways. Firstly, single cells from each cell line were mixed in equal proportions, with libraries generated using three different protocols: CEL-seq2, Drop-seq (with Dolomite equipment) and 10X Chromium. Secondly, the single cells were sorted from the three cell lines into 384-well plates, with an equal number of cells per well in different combinations (generally 9-cells, but with some 90-cell population controls). Thirdly, RNA was extracted in bulk for each cell line and the RNA was mixed in 7 different proportions and diluted to single cell equivalent amounts ranging from 3.75pg to 30pg and processed using CEL-seq 2 and SORT-seq. ERCC spike-in controls were present in samples processed using the 2 plate-based technologies (CEL-seq2 and SORT-seq).
+
+![Experimental design for cell bench data. (Tian et al, 2019)](figures/cellBench_expr_design.png)
+
+
+
+
+##### DOWNLOAD
+
+Raw data from this series of experiments is available under GEO accession number [GSE118767](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118767). The processed count data obtained from `scPipe` and stored in R objects that use the `SingleCellExperiment` class can be downloaded from https://github.com/LuyiTian/CellBench_data. The website contains instructions for getting the count data and metadata (including annotations) for each dataset. All data is post sample quality control, without gene filtering.
+
+
+
+
+##### REFERENCE
+
+Tian, L. et al., 2019. Benchmarking single cell RNA-sequencing analysis pipelines using mixture control experiments. Nature Methods, 16(6), pp.479–487. Available at: https://doi.org/10.1038/s41592-019-0425-8.
+
 
 <!-- ### Dataset 3 - the Hackathon -->
 
@@ -167,3 +167,6 @@ Ding, J. et al., 2019. Systematic comparative analysis of single cell RNA-sequen
 
 
 # Contact
+
+If you have any questions about this challenge, feel free to email us at:
+singlecellchallenge@maths.usyd.edu.au

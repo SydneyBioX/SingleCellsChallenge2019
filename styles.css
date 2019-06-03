@@ -2,6 +2,11 @@ blockquote {
   font-style: italic
 }
 
+h1.title {
+  font-size: 38px;
+  font-family: Impact, fantasy;
+}
+
 h1 { /* Header 1 */
   font-size: 28px;
 }
