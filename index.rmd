@@ -148,6 +148,12 @@ Raw data from this series of experiments is available under GEO accession number
 Tian, L. et al., 2019. Benchmarking single cell RNA-sequencing analysis pipelines using mixture control experiments. Nature Methods, 16(6), pp.479–487. Available at: https://doi.org/10.1038/s41592-019-0425-8.
 
 
+# Prize:
+
++ Computational challenge $1,000 team prize
++ Hackathon $1,000 team prize
++ Pitch Prize ($5k AGRF credit)
+
 
 # Contact
 
