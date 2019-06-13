@@ -61,7 +61,10 @@ In the experiment below we applied multimodal analysis to phenotype immune cells
 3.	Compare CITE profiles with publicly available cell-type signatures (i.e. www.immgen.org)
 
 ##### DOWNLOAD 
-1.	RAW CITE-seq COUNTS (csv file: [link](http://www.maths.usyd.edu.au/u/SMS/bioinformatics/wwwnb/CITE-seq/Swarbrick_metastatic_lymphnode.CITE.csv))
+1.	RAW CITE-seq COUNTS:
++ csv file: [link](http://www.maths.usyd.edu.au/u/SMS/bioinformatics/wwwnb/CITE-seq/Swarbrick_metastatic_lymphnode.CITE.csv)
++ raw_gene_bc_matrices_h5.h5 [link](http://www.maths.usyd.edu.au/u/SMS/bioinformatics/wwwnb/CITE-seq/raw_gene_bc_matrices_h5.h5)
++ filtered_gene_bc_matrices_h5.h5 [link](http://www.maths.usyd.edu.au/u/SMS/bioinformatics/wwwnb/CITE-seq/filtered_gene_bc_matrices_h5.h5)
 + Swarbrick_metastatic_lymphnode.CITE.csv 
 
 2.	SEURAT OBJECT (.RData file: [link](http://www.maths.usyd.edu.au/u/SMS/bioinformatics/wwwnb/CITE-seq/Swarbrick_metastatic_lymphnode.seurat.Rdata))
@@ -70,6 +73,10 @@ In the experiment below we applied multimodal analysis to phenotype immune cells
 + data processed with Seurat_3.0.0.9100, normalized with SCTransform (stored in SCT assay) 
 3.	ANTIBODY ANNOTATION (csv file: [link](http://www.maths.usyd.edu.au/u/SMS/bioinformatics/wwwnb/CITE-seq/antibody_isotype.csv))
 + antibody_isotypes.csv 
+
+3. `SingleCellExperiment` Object (.RData file: 
+[link](http://www.maths.usyd.edu.au/u/SMS/bioinformatics/wwwnb/CITE-seq/Swarbrick_metastatic_lymphnode.sce.Rdata)
+)
 
 
 
