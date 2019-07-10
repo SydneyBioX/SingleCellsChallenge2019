@@ -32,7 +32,7 @@ div.blue { background-color:#e6f0ff; border-radius: 3px; padding: 20px}
 </style>
 <div class = "blue">
 
-**The entries close 5pm on Friday 19th July.**
+**The entries close at 5pm on Friday 19th July.**
 
 </div>
 
